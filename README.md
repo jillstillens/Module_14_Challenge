@@ -26,8 +26,8 @@ Comparing the two, the SVM model closely followed the actual returns.  However, 
          1.0       0.56      0.96      0.71      2288
 
     accuracy                           0.55      4092
-   macro avg       0.49      0.50      0.39      4092
-weighted avg       0.50      0.55      0.43      4092
+    macro avg      0.49      0.50      0.39      4092
+    weighted avg   0.50      0.55      0.43      4092
 
 
 
