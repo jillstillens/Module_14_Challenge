@@ -30,6 +30,8 @@ Comparing the two, the SVM model closely followed the actual returns.  However, 
 weighted avg       0.50      0.55      0.43      4092
 
 
+
+
 the model overall did fairly poorly at predicting the buy and sell signals, and the low F1 scores do not provide a high confidence in the model.
 
 ![image info](actual_vs_svm_cum_returns_3_mos.png)
@@ -46,8 +48,8 @@ First tuning was to use the original data, but change the amount of training dat
          1.0       0.56      0.98      0.71      2211
 
     accuracy                           0.56      3943
-   macro avg       0.50      0.50      0.38      3943
-weighted avg       0.51      0.56      0.42      3943
+    macro avg      0.50      0.50      0.38      3943
+    weighted avg   0.51      0.56      0.42      3943
 
 
 
@@ -67,8 +69,8 @@ For this Tuning I used 4 days for short moving average and 49 days for long movi
          1.0       0.56      0.83      0.67      2278
 
     accuracy                           0.54      4069
-   macro avg       0.49      0.50      0.45      4069
-weighted avg       0.50      0.54      0.48      4069
+    macro avg      0.49      0.50      0.45      4069
+    weighted av    0.50      0.54      0.48      4069
 
 and graph:
 
@@ -86,8 +88,8 @@ Logistic regression yielded the following classification report:
          1.0       0.56      0.66      0.61      2288
 
     accuracy                           0.52      4092
-   macro avg       0.50      0.50      0.49      4092
-weighted avg       0.51      0.52      0.51      4092
+    macro avg      0.50      0.50      0.49      4092
+    weighted avg   0.51      0.52      0.51      4092
 
 and graph:
 
